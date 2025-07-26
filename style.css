@@ -1,0 +1,37 @@
+* {
+    margin: 0%;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header {
+    height: 120px;
+    width: 100%;
+    background-color: #e9ce7b;
+}
+
+.header .navbar {
+    background-color: black;
+    color: white;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .navbar .links {
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.header .navbar .links li {
+    padding-left: 30px;
+    font-size: 25px;
+}
+
+.header .navbar .links li:hover {
+    text-decoration: underline;
+    text-decoration-color: #e9ce7b;
+    text-underline-offset: 10px;
+}
