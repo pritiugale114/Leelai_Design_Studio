@@ -35,3 +35,48 @@
     text-decoration-color: #e9ce7b;
     text-underline-offset: 10px;
 }
+.marqu{
+    height: 30px;
+}
+
+.about {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.about .subAbout {
+    height: 550px;
+    display: flex;
+}
+
+.about .subAbout .image {
+    height: 450px;
+}
+.about .subAbout .content{
+    padding-left: 100px;
+}
+
+.about .subAbout .content h1 {
+    /* padding-top: 30px; */
+    text-align: center;
+    font-size: 40px;
+}
+
+.about .subAbout .content p {
+    font-size: 20px;
+    padding: 20px;
+    text-align: justify;
+    margin-top: 20px;
+    line-height: 35px;
+}
+.key-points{
+    height: 400px;
+    font-size: larger;
+    margin-top: 20px;
+    margin-left: 65px;
+  
+}
